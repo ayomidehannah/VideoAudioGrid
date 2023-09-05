@@ -27,10 +27,15 @@
 .item1{
   background-color: red;
   margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
 }
 
 .item1 audio{
   padding: 20px;
+  
 }
 .item1 p{
   font-weight: 700;
@@ -39,10 +44,13 @@
 }
 .item2{
   background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
 }
 .item2 video{
-  padding-left: 50px;
-  padding-bottom: 50px;
+  
 }
 .item2 p{
   font-weight: 700;
